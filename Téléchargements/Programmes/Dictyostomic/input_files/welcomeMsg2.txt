@@ -1,0 +1,25 @@
+This program will allow you to get the clusters of expression 
+profiles of either all pst genes or all psp genes 
+in Dictyostelium discoideum. It can also generate the 
+individual expression profile of each of these genes 
+
+All these transcriptomic data are provided by two RNA-seq 
+analyses, led by Pakhir et al. (2010) and by Rosengarten et 
+al. (2015):
+
+- Pakhir, Miranda, Katoh-Kurasawa, Fuller, Rot, Zagar, Curk, 
+Sucgang, Chen, Zupan, Loomis, Kuspa, Shaulsky. (2010) Conserved
+developmental transcriptomes in evolutionarily divergent species.
+Genome Biology, 11:R35
+- Rosengarten, Santhanman, Fuller, Katoh-Kurasawa, Loomis, 
+Zupan, Shaulsky. (2015) Leaps and lulls in the developmental
+transcriptome of Dictyostelium discoideum. Biomedical Central
+Genomics, 16:194
+
+This program will coordinates data mining tools and R, in order
+to provide you :
+- the expression clusters of pst and psp gene
+- the expression profile of a gene, as a function of hour in
+the life cycle of D. discoideum
+- the average expression profile of a gene, as a function of 
+phenotype during the slug stage
