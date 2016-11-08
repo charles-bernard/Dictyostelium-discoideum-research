@@ -1,0 +1,13 @@
+Arduino device
+
+Bus	Color	Type
+
+2	White	Digital (the intensity is settled with a potentiometer)
+3	White	Analogic
+5	Red	Analogic
+6	Red	Analogic
+9	Red	Analogic
+10	Red	Analogic
+11	White	Analogic
+
+
