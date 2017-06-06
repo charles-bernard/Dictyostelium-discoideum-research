@@ -22,7 +22,7 @@ computer before running it
 
 Which script to be executed ?
 - to test if there is a memory effect of the taxis: 
-	obsolete_PhototaxisLightSwitches.au3
+     _**obsolete_PhototaxisLightSwitches.au3**_
 - to analyse the reaction time of the slugs when the location of the light source changes: PhototaxisPreciseLightSwitches.au3
 - to see what happened if one switches from one led turned on to two leds turned on together: PhototaxisLightSwitches2Leds.au3
 
