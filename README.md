@@ -7,8 +7,8 @@ which might be only useful for people working on timelapse fluorescence microsco
 
 Scripts autoit3 to couple:
 
--the leds via the arduino Manager
--the camera via Snappixx
+- the leds via the arduino Manager
+- the camera via Snappixx
 
 These scripts are meant to be run under a Windows 
 environment, on the computer next to the incubator
