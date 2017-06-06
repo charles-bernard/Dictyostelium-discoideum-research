@@ -23,7 +23,7 @@ computer before running it
 Which script to be executed ?
 - to test if there is a memory effect of the taxis:  _**obsolete_PhototaxisLightSwitches.au3**_
 - to analyse the reaction time of the slugs when the location of the light source changes: _**PhototaxisPreciseLightSwitches.au3**_
-- to see what happened if one switches from one led turned on to two leds turned on together: _**PhototaxisLightSwitches2Leds.au3*__
+- to see what happened if one switches from one led turned on to two leds turned on together: _**PhototaxisLightSwitches2Leds.au3**_
 
 ## Dictyostomic
 
@@ -46,7 +46,6 @@ to run them:
 - open a terminal
 - go to the directory where the script are stored (use cd)
 - enter the desired following command:
-
    ./dictype.sh
    
    ./dictyostomic.sh
@@ -61,7 +60,6 @@ of the timelapse that are recorded after the culmination
 of all the slugs in order to save memory space.
 
 to run it:
-
 - open a terminal
 - go to the directory where the script are stored (use cd)
 - enter the desired following command:
@@ -81,7 +79,6 @@ warning: works only with images ordered via micromanager
 configured with the flipper on the fly processor
 
 to run it:
-
 - open a terminal
 - go to the directory
 - enter the command:
