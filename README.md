@@ -3,8 +3,7 @@
 This repo is of no use for the general public, just some codes I developped during an Internship and
 which might be only useful for people working on timelapse fluorescence microscopy of phototaxis migration.
 
-
-## BinocularTimelapseManager
+## BinocularTimelapseManager
 
 Scripts autoit3 to couple:
 
@@ -25,11 +24,12 @@ Which script to be executed ?
 -to test if there is a memory effect of the taxis: obsolete_PhototaxisLightSwitches.au3
 -to analyse the reaction time of the slugs when the location of the light source changes: PhototaxisPreciseLightSwitches.au3
 -to see what happened if one switches from one led turned on to two leds turned on together: PhototaxisLightSwitches2Leds.au3
-	
-## Dictyostomic
-	Two bash scripts:
-	 -dictype.sh: 
-		meant to get the info & the expression profile 
+
+## Dictyostomic
+
+Two bash scripts:
+-dictype.sh: 
+meant to get the info & the expression profile 
 		of the genes that are specific to the prespore 
 		and to the prestalk celltype.
 		The genes are further clustered according to
