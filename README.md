@@ -42,11 +42,13 @@ The two scripts couple the dictybase database,
 transcriptomic data and R via data mining tools
 	 
 to run them:
+
 - open a terminal
 - go to the directory where the script are stored (use cd)
 - enter the desired following command:
 
    ./dictype.sh
+   
    ./dictyostomic.sh
 
 ## ErasePicturesAfterCulmination
@@ -59,39 +61,45 @@ of the timelapse that are recorded after the culmination
 of all the slugs in order to save memory space.
 
 to run it:
+
 - open a terminal
 - go to the directory where the script are stored (use cd)
 - enter the desired following command:
 
     ./erase_culmination.sh
 
-4. makeMosaic
-	a python 2.7 script:
-	-makemosaic.py
-
-	This script is meant to generate an image mosaic
-	at each time point of the timelapse and a video 
-	of the timelapse.
-
-	warning: works only with images ordered via micromanager 	 
-	configured with the flipper on the fly processor
-
-	to run it:
-	-open a terminal
-	-go to the directory
-	-enter the command:
-		python makemosaic.py
+## makeMosaic
 	
-	My standard configuration:
-	for PHASE: ImageReductionFactor = 5, isVideo = y, VideoReductionFactor = 10
-	for [GR]FP : ImageReductionFactor = 1, isVideo = n
+a python 2.7 script:
+- _**makemosaic.py**_
 
-	NB: Recquires the following libraries:
-	-numpy
-	-cv2 (openCv) version 3.0.0 
+This script is meant to generate an image mosaic
+at each time point of the timelapse and a video 
+of the timelapse.
 
-	In order to be able to run the program on an other computer:
-	install cv2 according to the following tutorial:
-	-http://www.pyimagesearch.com/2015/06/22/install-opencv-3-0-and-python-2-7-on-ubuntu/
+warning: works only with images ordered via micromanager 	 
+configured with the flipper on the fly processor
+
+to run it:
+
+- open a terminal
+- go to the directory
+- enter the command:
+
+    python makemosaic.py
+	
+My standard configuration:
+
+for PHASE: ImageReductionFactor = 5, isVideo = y, VideoReductionFactor = 10
+
+for [GR]FP : ImageReductionFactor = 1, isVideo = n
+
+NB: Recquires the following libraries:
+- numpy
+- cv2 (openCv) version 3.0.0 
+
+In order to be able to run the program on an other computer:
+install cv2 according to the following tutorial:
+http://www.pyimagesearch.com/2015/06/22/install-opencv-3-0-and-python-2-7-on-ubuntu/
 		
 
