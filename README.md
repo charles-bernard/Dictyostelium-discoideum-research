@@ -21,47 +21,49 @@ Don't forget to compile the script on the according
 computer before running it
 
 Which script to be executed ?
-- to test if there is a memory effect of the taxis: 
-     _**obsolete_PhototaxisLightSwitches.au3**_
-- to analyse the reaction time of the slugs when the location of the light source changes: PhototaxisPreciseLightSwitches.au3
-- to see what happened if one switches from one led turned on to two leds turned on together: PhototaxisLightSwitches2Leds.au3
+- to test if there is a memory effect of the taxis:  _**obsolete_PhototaxisLightSwitches.au3**_
+- to analyse the reaction time of the slugs when the location of the light source changes: _**PhototaxisPreciseLightSwitches.au3**_
+- to see what happened if one switches from one led turned on to two leds turned on together: _**PhototaxisLightSwitches2Leds.au3*__
 
 ## Dictyostomic
 
 Two bash scripts:
--dictype.sh: 
+- _**dictype.sh**_: 
 meant to get the info & the expression profile 
-		of the genes that are specific to the prespore 
-		and to the prestalk celltype.
-		The genes are further clustered according to
-		their expression profile
-	-dictyostomic.sh:
-		meant to get the expression profile of a gene
-		or a set of genes entered by the user
+of the genes that are specific to the prespore 
+and to the prestalk celltype.
+The genes are further clustered according to
+their expression profile
+- _**dictyostomic.sh**_:
+meant to get the expression profile of a gene
+or a set of genes entered by the user
 
-	The two scripts couple the dictybase database, 	
-	transcriptomic data and R via data mining tools
+The two scripts couple the dictybase database, 	
+transcriptomic data and R via data mining tools
 	 
-	to run them:
-	-open a terminal
-	-go to the directory where the script are stored (use cd)
-	-enter the desired following command:
-		./dictype.sh
-		./dictyostomic.sh
-		
-3. ErasePicturesAfterCulmination
-	A bash script:
-	-erase_culmination.sh
+to run them:
+- open a terminal
+- go to the directory where the script are stored (use cd)
+- enter the desired following command:
 
-	This script is meant to erase all the pictures 
-	of the timelapse that are recorded after the culmination
-	of all the slugs in order to save memory space.
+   ./dictype.sh
+   ./dictyostomic.sh
 
-	to run it:
-	-open a terminal
-	-go to the directory where the script are stored (use cd)
-	-enter the desired following command:
-		./erase_culmination.sh
+## ErasePicturesAfterCulmination
+
+A bash script:
+- _**erase_culmination.sh**_
+
+This script is meant to erase all the pictures 
+of the timelapse that are recorded after the culmination
+of all the slugs in order to save memory space.
+
+to run it:
+- open a terminal
+- go to the directory where the script are stored (use cd)
+- enter the desired following command:
+
+    ./erase_culmination.sh
 
 4. makeMosaic
 	a python 2.7 script:
