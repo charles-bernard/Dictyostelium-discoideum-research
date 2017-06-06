@@ -1,32 +1,32 @@
-Description of the programs:
+# Internship_Dictyostelium-discoideum
 
-1. BinocularTimelapseManager
-	Scripts autoit3 to couple:
-	 -the leds via the arduino Manager
-	 -the camera via Snappixx
+This repo is of no use for the general public, just some codes I developped during an Internship and
+which might be only useful for people working on timelapse fluorescence microscopy of phototaxis migration.
 
-	These scripts are meant to be run under a Windows 
-	environment, on the computer next to the incubator
+
+## BinocularTimelapseManager
+
+Scripts autoit3 to couple:
+
+-the leds via the arduino Manager
+-the camera via Snappixx
+
+These scripts are meant to be run under a Windows 
+environment, on the computer next to the incubator
 	
-	In order to configure the timelapse, open the 
-	desired script and change the local variables at
-	the beginning
+In order to configure the timelapse, open the 
+desired script and change the local variables at
+the beginning
 
-	Don't forget to compile the script on the according
-	computer before running it
+Don't forget to compile the script on the according
+computer before running it
 
-	Which script to be executed ?
-	-to test if there is a memory effect of the taxis:
-		obsolete_PhototaxisLightSwitches.au3
-	-to analyse the reaction time of the slugs
-	when the location of the light source changes:
-		PhototaxisPreciseLightSwitches.au3
-	-to see what happened if one switches from one
-	led turned on to two leds turned on together:
-		PhototaxisLightSwitches2Leds.au3
+Which script to be executed ?
+-to test if there is a memory effect of the taxis: obsolete_PhototaxisLightSwitches.au3
+-to analyse the reaction time of the slugs when the location of the light source changes: PhototaxisPreciseLightSwitches.au3
+-to see what happened if one switches from one led turned on to two leds turned on together: PhototaxisLightSwitches2Leds.au3
 	
-
-2. Dictyostomic
+## Dictyostomic
 	Two bash scripts:
 	 -dictype.sh: 
 		meant to get the info & the expression profile 
